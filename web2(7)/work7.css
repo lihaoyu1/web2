@@ -1,0 +1,109 @@
+/*
+* @Author: lenovo
+* @Date:   2019-12-15 10:52:50
+* @Last Modified by:   lenovo
+* @Last Modified time: 2019-12-15 11:02:54
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+.nav{
+	list-style: none;
+}
+.box{
+	width: 1200px;
+	height: 383px;
+	border: 1px solid red;
+	margin: 50px auto;
+	margin-top: 40px;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: cente
+	cursor: pointer;
+	color: ;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav .active{
+	background: red;
+	color: white;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	text-align: center;
+}
+.top{
+	/* float: left; */
+	/* margin-top: -50px; */
+	height: 20px;
+	/* width: 1050px; */
+	background-color: lightgray;
+}
+.top div{
+	float: left;
+}
+.imga{
+	margin-left: 170px;
+}
+.word{
+	height: 20px;
+	width: 1050px;
+	/* margin-left: 50px; */
+	position: relative;
+	overflow: hidden;
+}
+.words{
+	width: 1780px;
+	left: 180px;
+	height: 20px;
+	position: absolute;
+}
+.txt{
+	float: left;
+	width: 1400px;
+	color: red;
+	font-size: 13px;
+}
+.txts{
+	/* float: left; */
+	width: 380px;
+	color: red;
+	font-size: 13px;
+}
